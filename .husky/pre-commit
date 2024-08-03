@@ -1,0 +1,13 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+
+# sdk-js pre-commit checks
+echo "----nestor::sdk-js::pre-commit-checks----"
+cd ./sdk-js
+
+npm run format
+npm run lint
+
+# add other lib checks here
+

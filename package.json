@@ -1,0 +1,12 @@
+{
+  "name": "@dreampipcom/nestor",
+  "version": "1.0.0",
+  "description": "DreamPip's Intelligence Hub.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "HPL3-ECO-AND-ANC"
+}
