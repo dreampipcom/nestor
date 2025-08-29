@@ -1,4 +1,4 @@
-FROM mongo:6.0.5
+FROM mongo:6.0.26
 
 COPY config-replica.js /
 COPY .bashrc /data/db/.bashrc
